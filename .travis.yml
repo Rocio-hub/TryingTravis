@@ -1,0 +1,9 @@
+language: csharp
+mono: none
+dotnet: 3.0
+solution: TDD.sln
+script: # this is a comment
+ - dotnet restore
+ - dotnet build
+ - dotnet test CalculatorTest/CalculatorTest.csproj
+ - dotnet test xUnitTestCalculator/xUnitTestCalculator.csproj

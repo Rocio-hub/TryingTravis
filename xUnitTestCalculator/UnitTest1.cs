@@ -14,7 +14,7 @@ namespace xUnitTestCalculator
             Assert.Equal(5, c.Peek);
         }
 
-        jhkjhkjhj
+        compilererror
 
         [Fact]
         public void TestAdd()

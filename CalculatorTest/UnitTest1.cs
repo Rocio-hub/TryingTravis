@@ -7,6 +7,9 @@ namespace CalculatorTest
     [TestClass]
     public class UnitTest1
     {
+
+        CompilerError
+
         [TestMethod]
         public void TestSetandPeek()
         {

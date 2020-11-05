@@ -32,7 +32,7 @@ namespace CalculatorTest
             c.Set(10);
             c.Div(2);
             Assert.AreEqual(5, c.Peek);
-            //Assert.AreEqual"29, c.Peek);
+            Assert.AreEqual"Hell, c.Peek);
         }
 
         [TestMethod]
